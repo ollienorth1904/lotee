@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lotería del Horror Moderno 2.0</title>
+<meta name="description" content="Lotería del Horror Moderno 2.0: play the 54-card horror remix of the traditional Mexican lotería in your browser, offline.">
+<meta name="theme-color" content="#3a0a0c">
+<meta name="color-scheme" content="dark">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="lotee">
+<meta name="application-name" content="lotee">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/icons/icon-152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="assets/icons/icon-167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/icon-180.png">
+<link rel="preload" href="assets/fonts/Ultra.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="data/cards.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="atmo" aria-hidden="true"><div class="candle"></div><div class="scan"></div><div class="vignette"></div></div>
+<main id="app" aria-live="polite">
+  <noscript><p style="padding:2rem">Esta lotería necesita JavaScript. / This game needs JavaScript.</p></noscript>
+  <div class="boot"><div class="boot-title">Lotería</div></div>
+</main>
+<div id="toast" role="status" aria-live="assertive"></div>
+<script src="js/app.js"></script>
+</body>
+</html>

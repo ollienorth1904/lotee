@@ -1,0 +1,29 @@
+{
+  "name": "Lotería del Horror Moderno 2.0",
+  "short_name": "lotee",
+  "description": "The 54-card horror remix of the traditional Mexican lotería. Play solo against rivals, pass-and-play, or run a game night as the caller.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen"],
+  "orientation": "any",
+  "background_color": "#1a0506",
+  "theme_color": "#3a0a0c",
+  "lang": "es",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {"src": "assets/icons/icon-48.png", "sizes": "48x48", "type": "image/png"},
+    {"src": "assets/icons/icon-72.png", "sizes": "72x72", "type": "image/png"},
+    {"src": "assets/icons/icon-96.png", "sizes": "96x96", "type": "image/png"},
+    {"src": "assets/icons/icon-128.png", "sizes": "128x128", "type": "image/png"},
+    {"src": "assets/icons/icon-144.png", "sizes": "144x144", "type": "image/png"},
+    {"src": "assets/icons/icon-152.png", "sizes": "152x152", "type": "image/png"},
+    {"src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "assets/icons/icon-256.png", "sizes": "256x256", "type": "image/png"},
+    {"src": "assets/icons/icon-384.png", "sizes": "384x384", "type": "image/png"},
+    {"src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "assets/icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
+    {"src": "assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
